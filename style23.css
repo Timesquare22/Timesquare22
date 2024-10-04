@@ -1,0 +1,109 @@
+* {
+  margin: 2px;
+  padding: 6px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  text-align: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(PICS/pics/crip.jpg);
+  background-repeat: no-repeat;
+}
+
+p::first-letter{
+  color: red;
+  font-size: x-large;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgb(3, 129, 129);
+  border-style: solid;
+  backdrop-filter: blur(30px);
+  color: #fff;
+  border-radius: 20px;
+  padding: 30px 40px;
+}
+h1 {
+  color: rgb(249, 200, 6);
+  padding-top: 5%;
+  font-size: 36px;
+  text-align: center;
+  text-indent: 1em;
+  
+}
+.input-box {
+  position: relative;
+  width: 300px;
+  border: none;
+  outline: none;
+}
+.input-box input::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+.input-box input {
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgba(225, 225, 225, 2);
+  outline: none;
+  border-radius: 25px;
+}
+.beat {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(249, 200, 6);
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgb(249, 200, 6);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #003426;
+}
+#plug {
+  padding-bottom: 10%;
+}
+
+.plugx {
+  width: 200;
+}
+.plug1 {
+  color: #003426;
+  font-weight: 600;
+  background-color: rgb(249, 200, 6);
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+.plug2 {
+  color: #003426;
+  font-weight: 600;
+  background-color: rgb(249, 200, 6);
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+.plug3 {
+  color: #003426;
+  font-weight: 600;
+  background-color: rgb(249, 200, 6);
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+.plug4 {
+  color: #003426;
+  font-weight: 600;
+  background-color: rgb(249, 200, 6);
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+a {
+  color: rgb(249, 200, 6);
+}
